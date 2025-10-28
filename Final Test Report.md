@@ -11,7 +11,7 @@
 
 | Role | Name | Responsibilities |
 |------|------|------------------|
-| Test Manager | | Planning, scheduling, coordination, metric tracking |
+| Test Manager | Jackline Cherotich| Planning, scheduling, coordination, metric tracking |
 | Risk Analyst | Magret Faith| Risk identification, prioritization, test design linkage |
 | Test Executor | | Execution, evidence capture, defect logging |
 
@@ -38,27 +38,30 @@
 ## Test Plan
 
 ### Objectives
--Validate Leaderboard functionality that it displays top scores  and data persists
--Verify core game functionality — word scrambling, bonus calculations, and reset behavior.
--Confirm negative test cases (invalid input, no word entered,) are handled gracefully.
--Evaluate UI responsiveness across various screen sizes and environments.
--To apply risk based testing to prioritize high impact areas.
-- To document identified defects and provide evidence
+
+- Validate Leaderboard functionality that it displays top scores and data persists
+- Verify core game functionality — word scrambling, bonus calculations, and reset behavior
+- Confirm negative test cases (invalid input, no word entered) are handled gracefully
+- Evaluate UI responsiveness across various screen sizes and environments
+- Apply risk-based testing to prioritize high impact areas
+- Document identified defects and provide evidence
 
 ### Scope
 
 **In Scope:**
--Testing on Latest Google Chrome browser 
--Word Scrambling and validation logic.
--Scoring and Hint deduction logic.
--Reset Game and Leaderboard state management.
--UI and Input validation like buttons, responsiveness, text input.
--User input error feedback and message display
+
+- Testing on Latest Google Chrome browser
+- Word Scrambling and validation logic
+- Scoring and Hint deduction logic
+- Reset Game and Leaderboard state management
+- UI and Input validation (buttons, responsiveness, text input)
+- User input error feedback and message display
 
 **Out of Scope:**
--Cross-browser testing (e.g., Firefox, Safari, Edge).
--Performance testing under load.
--Mobile device and Responsive design testing
+
+- Cross-browser testing (e.g., Firefox, Safari, Edge)
+- Performance testing under load
+- Mobile device and Responsive design testing
 
 ### Tools & Resources
 Tools
@@ -150,8 +153,8 @@ Total  | 5 Days| 3.5 Days | Ahead of Schedule
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| Jackline Cherotich | Test Manager | JC | 27-10-2025 |
-| Magret Faith | Risk Analyst | MF | 10/28/2025 |
+| Jackline Cherotich | Test Manager | JC | 28-10-2025 |
+| Magret Faith | Risk Analyst | MF |28-10-2025 |
 | | Test Executor | | |
 
 ## Overall Summary
