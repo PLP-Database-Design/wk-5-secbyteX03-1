@@ -13,7 +13,7 @@
 |------|------|------------------|
 | Test Manager | | Planning, scheduling, coordination, metric tracking |
 | Risk Analyst | Magret Faith| Risk identification, prioritization, test design linkage |
-| Test Executor | | Execution, evidence capture, defect logging |
+| Test Executor | Amobigold Sikirat | Execution, evidence capture, defect logging |
 
 ## Group Rules
 
@@ -73,11 +73,11 @@ Tools
 | Phase | Planned Duration | Actual Duration | Status |
 |-------|------------------|-----------------|--------|
 | | | | |
-|Test planning and Design | 1 day | 1/2 day |Completed |
-|Test case Development| 1 day| 1/2  day|Completed|
-|Test Execution(Static and Manual)| 2 days| 1 day|Completed|
-|Defect logging and Reporting| 1 day| 1/2 day|Completed|
-Total  | 5 Days| 3.5 Days | Ahead of Schedule
+|Test planning and Design | 1 day | 1/2 day | Completed |
+|Test case Development| 1 day| 1/2  day| Completed |
+|Test Execution(Static and Manual)| 2 days| 1 day| Completed |
+|Defect logging and Reporting| 1 day| 1/2 day| Completed |
+Total  | 5 Days| 3.5 Days | Ahead of Schedule |
 ## Risk Analysis
 
 ### Risks
