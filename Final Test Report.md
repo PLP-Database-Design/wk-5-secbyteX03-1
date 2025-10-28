@@ -120,11 +120,11 @@ Total  | 5 Days| 3.5 Days | Ahead of Schedule
 
 | ID | Issue Title | Severity | Risk ID | Status | GitHub Link |
 |----|-------------|----------|---------|--------|-------------|
-| D1 | Leaderboard stores intermediate scores | Medium | R2 | Open | Issue #1| 
-| D2 | Hint button accessible when no hint available | Low | R5 | Open | Issue #2 |
-| D3 | ARIA role used instead of semantic HTML | Medium | R7 | Open | Issue #3 |
-| D4 | Accessibility role consistency issues | Medium | R7 | Open | Issue #4 |
-| D5 | Input field lacks alphabetic character validation | Medium | R4 | Open | Issue#5 |
+| D1 | Leaderboard stores intermediate scores | Medium | R2 | Open | https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/2 | 
+| D2 | Hint button accessible when no hint available | Low | R5 | Open | https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/3 |
+| D3 | ARIA role used instead of semantic HTML | Medium | R7 | Open | https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/4 |
+| D4 | Accessibility role consistency issues | Medium | R7 | Open | https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/5 |
+| D5 | Input field lacks alphabetic character validation | Medium | R4 | Open | https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/6 |
 
 
 ## Metrics
@@ -192,12 +192,5 @@ o	Implement code review process for accessibility compliance
 
 **Test Status:** **Completed** / ☐ In Progress / ☐ Deferred
 
-## Github Issues
-
-- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/2]( Leaderboard scores should be stored on localstorage )
-- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/3]( Accessibility of hint button when no hint is available )
-- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/4](Inappropriate use of semantics HTML)
-- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/5](Accessibility role consistency issues )
-- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/6](Input Field Lacks Alphabetic Character Validation)
 
 
