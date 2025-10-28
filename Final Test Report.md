@@ -190,7 +190,7 @@ o	Implement code review process for accessibility compliance
 **Statement** : The Word Puzzle Game Plus application demonstrates good core functionality with working scoring mechanics and reliable features. During dynamic testing we only discovered minor usability issues, while during static analysis we identified important code quality and accessibility concerns by using SonarQube. The application functions well but requires code revisions and fixing for better accessibility compliance and maintainability before production release.
 
 
-**Test Status:** **Completed** / ☐ In Progress / ☐ Deferred
+**Test Status:** [x] Completed / ☐ In Progress / ☐ Deferred
 
 
 
