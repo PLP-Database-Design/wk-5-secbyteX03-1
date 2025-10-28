@@ -183,11 +183,13 @@ o	Implement code review process for accessibility compliance
 
 ## Attachments
 
-**Image01** ![ Leaderboard ](/wk-5-secbyteX03-1/images/word-puzzle01.png "Leaderboard scores review")
-**image02**: ![ Hint system ](/wk-5-secbyteX03-1/images/word-puzzle02.png "Hint feature should be diasbled once used ")
-**image03:** ![ Code quality(Aria-role) ](/wk-5-secbyteX03-1/images/word-puzzle03.png "sonarqube code quality and accessibility")
-**image04** : ![ Inconsistent use of semantic HTML ](/wk-5-secbyteX03-1/images/word-puzzle04.png "Semanatic HTML review")
-**image05:** ![ Input validation ](/wk-5-secbyteX03-1/images/word-puzzle05.png "Input field should only accept alphabet")
+| Image | Description |
+|-------|-------------|
+| ![Leaderboard](images/word-puzzle01.png) | **Leaderboard Scores Review** - Shows the leaderboard displaying top scores |
+| ![Hint System](images/word-puzzle02.png) | **Hint System** - Hint feature should be disabled once used |
+| ![Code Quality](images/word-puzzle03.png) | **Code Quality (Aria-role)** - SonarQube analysis showing code quality and accessibility issues |
+| ![Semantic HTML](images/word-puzzle04.png) | **Semantic HTML Review** - Inconsistent use of semantic HTML elements |
+| ![Input Validation](images/word-puzzle05.png) | **Input Validation** - Input field should only accept alphabetic characters |
 
 - 
 
