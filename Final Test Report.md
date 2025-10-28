@@ -69,12 +69,18 @@
 - Mobile device and Responsive design testing
 
 ### Tools & Resources
-Tools
--GitHub issues for defect tracking
-- Latest Chrome, Visual Studio Code
--Browser localstorage inpsection tools
--Screenshoot Capture Snipping tool
--Team Roles: Test Manager, Test Analyst, Test Executor
+
+#### Testing Tools
+- **GitHub Issues** - For defect tracking and issue management
+- **Google Chrome** - Latest version for testing
+- **Visual Studio Code** - Code editor for test script development
+- **Browser Developer Tools** - For localStorage inspection and debugging
+- **Snipping Tool** - For capturing and annotating screenshots
+
+#### Team Roles
+- **Test Manager** - Overall test planning and coordination
+- **Test Analyst** - Test case design and requirements analysis
+- **Test Executor** - Test execution and defect reporting
 
 ### Schedule
 
