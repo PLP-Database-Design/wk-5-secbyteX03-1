@@ -172,24 +172,24 @@ Total  | 5 Days| 3.5 Days | Ahead of Schedule |
 
 ## Lessons Learned
 
-- Most Defect Prone Feature: Code quality and accessibility compliance. 
-- Risk Analysis Impact: Static analysis revealed important maintainability issues not caught in dynamic testing.
-- Team Communication Effectiveness: High - integrated static testing findings effectively.
-- Improvements for Next Cycle: 
- o	Include static analysis earlier in development cycle
-o	Add automated accessibility testing tools
-o	Implement code review process for accessibility compliance
+- **Most Defect Prone Feature:** Code quality and accessibility compliance.
+- **Risk Analysis Impact:** Static analysis revealed important maintainability issues not caught in dynamic testing.
+- **Team Communication Effectiveness:** High - integrated static testing findings effectively.
+- **Improvements for Next Cycle:**
+  - Include static analysis earlier in development cycle
+  - Add automated accessibility testing tools
+  - Implement code review process for accessibility compliance
 
 
 ## Attachments
 
 | Thumbnail | Description |
-|-----------|-------------|
-| [![Leaderboard](images/word-puzzle01.png)](images/word-puzzle01.png) | **Leaderboard Scores Review**<br>Shows the leaderboard displaying top scores<br>_Click image to enlarge_ |
-| [![Hint System](images/word-puzzle02.png)](images/word-puzzle02.png) | **Hint System**<br>Hint feature should be disabled once used<br>_Click image to enlarge_ |
-| [![Code Quality](images/word-puzzle03.png)](images/word-puzzle03.png) | **Code Quality (Aria-role)**<br>SonarQube analysis showing code quality and accessibility issues<br>_Click image to enlarge_ |
-| [![Semantic HTML](images/word-puzzle04.png)](images/word-puzzle04.png) | **Semantic HTML Review**<br>Inconsistent use of semantic HTML elements<br>_Click image to enlarge_ |
-| [![Input Validation](images/word-puzzle05.png)](images/word-puzzle05.png) | **Input Validation**<br>Input field should only accept alphabetic characters<br>_Click image to enlarge_ |
+|------------|-------------|
+| <a href="images/word-puzzle01.png"><img src="images/word-puzzle01.png" width="80"></a> | **Leaderboard Scores Review**<br>Shows the leaderboard displaying top scores<br>_Click image to enlarge_ |
+| <a href="images/word-puzzle02.png"><img src="images/word-puzzle02.png" width="80"></a> | **Hint System**<br>Hint feature should be disabled once used<br>_Click image to enlarge_ |
+| <a href="images/word-puzzle03.png"><img src="images/word-puzzle03.png" width="80"></a> | **Code Quality (Aria-role)**<br>SonarQube analysis showing code quality and accessibility issues<br>_Click image to enlarge_ |
+| <a href="images/word-puzzle04.png"><img src="images/word-puzzle04.png" width="80"></a> | **Semantic HTML Review**<br>Inconsistent use of semantic HTML elements<br>_Click image to enlarge_ |
+| <a href="images/word-puzzle05.png"><img src="images/word-puzzle05.png" width="80"></a> | **Input Validation**<br>Input field should only accept alphabetic characters<br>_Click image to enlarge_ |
 
 - 
 
