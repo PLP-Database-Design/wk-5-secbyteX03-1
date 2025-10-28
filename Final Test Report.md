@@ -201,31 +201,25 @@ The leaderboard cumulative scores are saved to localStorage, not final session s
 2.	Play second puzzle, solve it and you will get the score of  20 and also this is saved to leaderboard and replaces the position of the score  10.
 3.	Play third puzzle, this will trigger a bonus Score and you get double so the score will be  60 also saved to leaderboard and replaces the position for the score 20.
 4.	Open DevTools then click Application  then localStorage then  view the leaderboard key.
- 
 **Expected Result**
-
 Here the design decision was needed since our group had two possible interpretations in mind:
 •	Option A: Leaderboard tracks best cumulative score achieved in a single continuous session
 •	Option B: Leaderboard tracks final score when player explicitly ends session for example by having a finish game button
-
 **Actual Result**
 Leaderboard saves score after each puzzle solve, so it always reflects current cumulative score.
-
 **Impact**
-
 •	If player resets mid-session, their intermediate score is preserved in leaderboard
 •	 There is no way to distinguish final session score from best cumulative score during session
 •	User expectation unclear, the user will not be able to understand if  this a high score tracker or session completion tracker
 Severity Justification: Medium - Functional but may not match design intent
-
 **Recommendation**
-
 1.	Clarify specification: What should leaderboard represent?
 2.	If session-based: Add finish game button that saves final score only
 3.	If cumulative: Keep current behavior but update README to document this explicitly
 4.	Consider adding session timestamp to distinguish different play sessions
 
 **Image01** ![ Leaderboard ](/wk-5-secbyteX03-1/images/word-puzzle01.png "Leaderboard scores review")
+
 
 ## Defect 2
 
@@ -282,8 +276,8 @@ Generic div elements with ARIA roles used throughout the codebase.
 2.	Use <main>, <section>, <nav> instead of <div role="main">
 3.	Remove redundant ARIA roles when semantic elements provide the same meaning
 4.	Conduct accessibility audit with screen readers to verify improvements
+**image03:** ![ Code quality(Aria-role) ](/wk-5-secbyteX03-1/images/word-puzzle03.png "sonarqube code quality and accessibility")
 
-image03:![ Code quality(Aria-role) ](/wk-5-secbyteX03-1/images/word-puzzle03.png "sonarqube code quality and accessibility")
 
 ## Defect 4
 
