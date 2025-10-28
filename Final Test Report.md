@@ -38,27 +38,46 @@
 ## Test Plan
 
 ### Objectives
-
-- 
+-Validate Leaderboard functionality that it displays top scores  and data persists
+-Verify core game functionality — word scrambling, bonus calculations, and reset behavior.
+-Confirm negative test cases (invalid input, no word entered,) are handled gracefully.
+-Evaluate UI responsiveness across various screen sizes and environments.
+-To apply risk based testing to prioritize high impact areas.
+- To document identified defects and provide evidence
 
 ### Scope
 
 **In Scope:**
-- 
+-Testing on Latest Google Chrome browser 
+-Word Scrambling and validation logic.
+-Scoring and Hint deduction logic.
+-Reset Game and Leaderboard state management.
+-UI and Input validation like buttons, responsiveness, text input.
+-User input error feedback and message display
 
 **Out of Scope:**
-- 
+-Cross-browser testing (e.g., Firefox, Safari, Edge).
+-Performance testing under load.
+-Mobile device and Responsive design testing
 
 ### Tools & Resources
-
-- 
+Tools
+-GitHub issues for defect tracking
+- Latest Chrome, Visual Studio Code
+-Browser localstorage inpsection tools
+-Screenshoot Capture Snipping tool
+-Team Roles: Test Manager, Test Analyst, Test Executor
 
 ### Schedule
 
 | Phase | Planned Duration | Actual Duration | Status |
 |-------|------------------|-----------------|--------|
 | | | | |
-
+|Test planning and Design | 1 day | 1/2 day |Completed |
+|Test case Development| 1 day| 1/2  day|Completed|
+|Test Execution(Static and Manual)| 2 days| 1 day|Completed|
+|Defect logging and Reporting| 1 day| 1/2 day|Completed|
+Total  | 5 Days| 3.5 Days | Ahead of Schedule
 ## Risk Analysis
 
 ### Risks
@@ -66,6 +85,7 @@
 | ID | Feature | Risk Description | Likelihood | Impact | Priority | Mitigation Strategy |
 |----|---------|------------------|------------|--------|----------|---------------------|
 | | | | | | | |
+
 
 ### Risk Coverage
 
@@ -123,7 +143,7 @@
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| | Test Manager | | |
+|Jackline Cherotich | Test Manager |JC | 27-10-2025|
 | | Risk Analyst | | |
 | | Test Executor | | |
 
