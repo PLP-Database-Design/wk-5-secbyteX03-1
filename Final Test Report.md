@@ -169,6 +169,12 @@ o	Implement code review process for accessibility compliance
 
 ## Attachments
 
+**Image01** ![ Leaderboard ](/wk-5-secbyteX03-1/images/word-puzzle01.png "Leaderboard scores review")
+**image02**: ![ Hint system ](/wk-5-secbyteX03-1/images/word-puzzle02.png "Hint feature should be diasbled once used ")
+**image03:** ![ Code quality(Aria-role) ](/wk-5-secbyteX03-1/images/word-puzzle03.png "sonarqube code quality and accessibility")
+**image04** : ![ Inconsistent use of semantic HTML ](/wk-5-secbyteX03-1/images/word-puzzle04.png "Semanatic HTML review")
+**image05:** ![ Input validation ](/wk-5-secbyteX03-1/images/word-puzzle05.png "Input field should only accept alphabet")
+
 - 
 
 ## Sign Off
@@ -177,7 +183,7 @@ o	Implement code review process for accessibility compliance
 |------|------|-----------|------|
 | Jackline Cherotich | Test Manager | JC | 27-10-2025 |
 | Magret Faith | Risk Analyst | MF | 10/28/2025 |
-| | Amobigold Sikirat |Test executor |GD | 28-10-2025
+| Amobigold Sikirat |Test Executor |GD | 28-10-2025 |
 
 ## Overall Summary
 
@@ -188,153 +194,10 @@ o	Implement code review process for accessibility compliance
 
 ## Github Issues
 
-## Default 1
-
-**DEF-001:** Leaderboard stores intermediate cumulative scores. 
-**Risk Link:** R2
-**Feature:**Leaderboard
-**Description**
-The leaderboard cumulative scores are saved to localStorage, not final session scores.
-
-**Steps to Reproduce**
-1.	Play first puzzle, solve it and you get to Score 10 and this is saved to leaderboard and displayed.
-2.	Play second puzzle, solve it and you will get the score of  20 and also this is saved to leaderboard and replaces the position of the score  10.
-3.	Play third puzzle, this will trigger a bonus Score and you get double so the score will be  60 also saved to leaderboard and replaces the position for the score 20.
-4.	Open DevTools then click Application  then localStorage then  view the leaderboard key.
-**Expected Result**
-Here the design decision was needed since our group had two possible interpretations in mind:
-•	Option A: Leaderboard tracks best cumulative score achieved in a single continuous session
-•	Option B: Leaderboard tracks final score when player explicitly ends session for example by having a finish game button
-**Actual Result**
-Leaderboard saves score after each puzzle solve, so it always reflects current cumulative score.
-**Impact**
-•	If player resets mid-session, their intermediate score is preserved in leaderboard
-•	 There is no way to distinguish final session score from best cumulative score during session
-•	User expectation unclear, the user will not be able to understand if  this a high score tracker or session completion tracker
-Severity Justification: Medium - Functional but may not match design intent
-**Recommendation**
-1.	Clarify specification: What should leaderboard represent?
-2.	If session-based: Add finish game button that saves final score only
-3.	If cumulative: Keep current behavior but update README to document this explicitly
-4.	Consider adding session timestamp to distinguish different play sessions
-
-**Image01** ![ Leaderboard ](/wk-5-secbyteX03-1/images/word-puzzle01.png "Leaderboard scores review")
+- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/2]( Leaderboard scores should be stored on localstorage )
+- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/3]( Accessibility of hint button when no hint is available )
+- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/4](Inappropriate use of semantics HTML)
+- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/5](Accessibility role consistency issues )
+- [https://github.com/PLP-Database-Design/wk-5-secbyteX03-1/issues/6](Input Field Lacks Alphabetic Character Validation)
 
 
-## Defect 2
-
-**DEF-002:** Hint button accessible when no hint available
-**Risk Link:** R5
-**Feature:**  Hint System
-**Description**
-The hint button remains enabled and clickable even after a hint has already been used for the current puzzle, providing confusing user feedback when no additional hint is available.
-**Steps to Reproduce**
-1.	Start a new puzzle
-2.	Click on the hint button and a hint is displayed and 2 points deducted
-3.	Click on the hint button again and the error message appears
-4.	Observe that button remains enabled throughout
-**Expected Result:**
-Hint button should be disabled or show visual feedback after being used to prevent user confusion about available actions.
-**Actual Result**
-Button remains fully enabled, requiring user to read error message to understand why second click doesn't work
-**Impact:**
-•	Minor user experience issue
-•	Potential confusion about game mechanics
-•	Inconsistent UI feedback
-**Severity Justification:** Low - Cosmetic UI issue that doesn't affect functionality
-**Recommendation:**
-1.	Disable hint button after first use per puzzle
-2.	Change button styling to indicate inactive state when all hints are used
-3.	Re-enable button when new puzzle loads
-4.	Add an explaining hint limitation
-
-**image02**: ![ Hint system ](/wk-5-secbyteX03-1/images/word-puzzle02.png "Hint feature should be diasbled once used ")
-
-## Defect 3
-
-**DEF-003:** ARIA role used instead of semantic HTML 
-**Risk Link:** R7
-**Feature:** Code quality and accessibility
-**Description:**
-SonarQube static analysis detected use of ARIA roles on generic elements where semantic HTML tags would be more appropriate. This affects the accessibility, maintainability and code quality.
-**Steps to reproduce:**
-•	Open the index.html file in a Vs code and ensure you have sonarQube extension installed
-•	Open the terminal and head over to sonarQube to view the issues
-•	Double click on the issue listed to read more details
-**Expected Result:**
-Use semantic HTML elements (button, section, main, etc.) instead of generic elements with ARIA roles for better accessibility and code maintainability.
-**Actual Result:**
-Generic div elements with ARIA roles used throughout the codebase.
-**Impact:**
-•	Reduced accessibility support across different browsers and assistive technologies
-•	Poor code maintainability and readability
-•	Increased complexity requiring additional JavaScript for built-in behaviors
-•	Potential SEO impact due to poor semantic structure
-**Severity Justification:** Medium - Accessibility and maintainability concern that doesn't break functionality but impacts code quality
-**Recommendation:**
-1.	Replace <div role="button"> with actual <button> elements
-2.	Use <main>, <section>, <nav> instead of <div role="main">
-3.	Remove redundant ARIA roles when semantic elements provide the same meaning
-4.	Conduct accessibility audit with screen readers to verify improvements
-**image03:** ![ Code quality(Aria-role) ](/wk-5-secbyteX03-1/images/word-puzzle03.png "sonarqube code quality and accessibility")
-
-
-## Defect 4
-
-**DEF-004:** Accessibility role consistency issues 
-**Risk Link:** R7
-**Feature:** Code quality and accessibility
-**Description:**
-SonarQube analysis identified inconsistent use of ARIA roles and semantic HTML throughout the codebase. Some elements use proper semantic tags while others use generic elements with ARIA roles, creating maintenance challenges and potential accessibility gaps.
-**Steps to reproduce**
-•	open the index.html file in a Vs code and ensure you have sonarQube extension installed
-•	Open the terminal and head over to sonarQube to view the issues
-•	Double click on the issue listed to read more details
-**Expected Result**
-Consistent use of semantic HTML elements throughout the application with ARIA roles only used when no suitable semantic element exists.
-**Actual Result**
-Inconsistent implementation with some elements using semantic HTML and others using ARIA roles on generic elements.
-**Impact**
-•	Inconsistent user experience for assistive technology users
-•	Higher maintenance costs due to mixed patterns
-•	Potential accessibility compliance issues
-•	Learning curve for new developers working on the codebase
-**Severity Justification:** Medium - Code quality and accessibility issue that impacts maintainability and user experience
-**Recommendation**
-1.	Establish and follow consistent accessibility patterns
-2.	Create accessibility guidelines for the project
-3.	Replace all generic elements with ARIA roles where semantic alternatives exist
-4.	Use ARIA roles only when no semantic HTML element can provide the required semantics
-5.	Implement automated accessibility testing in CI/CD pipeline
-**image04** : ![ Inconsistent use of semantic HTML ](/wk-5-secbyteX03-1/images/word-puzzle04.png "Semanatic HTML review")
-
-## Defect 5
-
-**DEF-005:** Input Field Lacks Alphabetic Character Validation 
-**Risk Link:** R4
-**Feature:** Input Validation
-**Description:**
-The input field accepts numeric characters and special symbols as valid guesses for scrambled words, which are always composed of alphabetic characters only. This lack of input filtering creates a poor user experience and allows invalid inputs that can never match the target word.
-**Steps to Reproduce:**
-1.	Start a new puzzle with scrambled word 
-2.	Enter numeric characters in guess field for example 12345678
-3.	Click Submit or press Enter
-4.	Observe the application processes the numeric input as a valid guess attempt
-5.	Repeat with special characters like !@#$%
-6.	Repeat with mixed alphanumeric like abc123
-**Expected Result**
-•	Input field should reject or filter non-alphabetic characters
-•	Show validation error message for invalid character inputs
-•	Only accept letters A-Z (case insensitive)
-**Actual Result**
-•	Input field accepts any keyboard input including numbers and symbols
-•	No client-side validation prevents invalid character submissions
-•	System processes clearly invalid guesses, providing "Incorrect" feedback instead of proper validation messages
-**Impact**
-•	Poor user experience - users can waste attempts on obviously invalid inputs
-•	No guidance for users about expected input format
-•	Increased error rate due to accidental numeric/symbol input
-•	Accessibility concern - no clear input requirements communicated
-**Severity Justification:** Medium - Functional issue that impacts user experience and input validation integrity
-
-**image05:** ![ Input validation ](/wk-5-secbyteX03-1/images/word-puzzle05.png "Input field should only accept alphabet")
