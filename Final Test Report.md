@@ -104,17 +104,17 @@ Total  | 5 Days| 3.5 Days | Ahead of Schedule
 | ID | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
 |----|---------|-----------|----------------|---------------|--------|-----------|
 | TC-01| Incorrect bonus calculation|Verify score doubles after 3rd puzzle | Score multiplied by 2 after 3 correct answers | Score correctly doubled to 60 | Passed | R1 |
-| TC-02 | Leaderboard | TC-02	Leaderboard	Test top 3 score sorting |	Scores display in descending order	Scores properly sorted (60,20,10)|Passed	R2 |
+| TC-02 | Leaderboard | Test top 3 score sorting |	Scores display in descending order | Scores properly sorted (60,20,10)|Passed |	R2 |
 | TC-03| Reset Game | Verify complete state reset |	All scores and progress reset to 0 |Complete reset achieved	| Passed |	R6 |
 | TC-04 | Word Scramble | Ensure scrambled word is not the original correct word | Different arrangement of letters | Words properly scrambled | Passed	| R3 |
-| TC-05 | Hint System |	Test single hint charge per puzzle |	2 points deducted |	Hint cost applied correctly |	Passed 	| R5 |
+| TC-05 | Hint System |	Test single hint charge per puzzle | 2 points deducted | Hint cost applied correctly | Passed | R5 |
 | TC-06	| Input Validation | Test special character input |	Graceful error handling	| Input safely handled | Passed	| R4 |
 | TC-07 | Scoring |	Verify hint-used scoring and score reduced to 5 points | Reduced points awarded with hint |	Correct scoring applied | Passed | R1 |
-|TC-08 | UI Responsiveness | 	Test button functionality | All controls work as expected |	Interface responsive |	Passed	|N/A |
-|TC-09 |	Leaderboard Update	Test score persistence after refresh |	Scores maintained after browser restart	|Scores persisted correctly	| Passed |	R2 |
-| TC-10 | Multiple Sessions	| Verify independent game sessions | No state leakage between plays	| Sessions isolated properly |	Passed | R6 |
+|TC-08 | UI Responsiveness | Test button functionality | All controls work as expected |	Interface responsive | Passed | N/A |
+|TC-09 | Leaderboard Update | Test score persistence after refresh | Scores maintained after browser restart | Scores persisted correctly | Passed | R2 |
+| TC-10 | Multiple Sessions	| Verify independent game sessions | No state leakage between plays	| Sessions isolated properly | Passed | R6 |
 | TC-11 | Static Analysis |	Code quality and accessibility | No critical static analysis issues	| 2 medium severity issues found | Partial |	R7, R8 |
-| TC-12 | Input Validation	| Verify alphabetic-only input |	Non-alphabetic inputs rejected	| Accepts numbers and symbols |	Failed	| R4 |
+| TC-12 | Input Validation	| Verify alphabetic-only input | Non-alphabetic inputs rejected	| Accepts numbers and symbols |	Failed	| R4 |
 
 ## Defects
 
