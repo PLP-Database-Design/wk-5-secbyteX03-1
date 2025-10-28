@@ -103,7 +103,7 @@ Total  | 5 Days| 3.5 Days | Ahead of Schedule
 
 | ID | Feature | Objective | Expected Result | Actual Result | Status | Risk Link |
 |----|---------|-----------|----------------|---------------|--------|-----------|
-| TC-01| Incorrect bonus calculation|Verify score doubles after 3rd puzzle | Score multiplied by 2 after 3 correct answers | TC-01	Bonus Round	Verify score doubles after 3rd puzzle	Score multiplied by 2 after 3 correct answers	Score correctly doubled to 60 | Passed | R1 |
+| TC-01| Incorrect bonus calculation|Verify score doubles after 3rd puzzle | Score multiplied by 2 after 3 correct answers | Score correctly doubled to 60 | Passed | R1 |
 | TC-02 | Leaderboard | TC-02	Leaderboard	Test top 3 score sorting |	Scores display in descending order	Scores properly sorted (60,20,10)|Passed	R2 |
 | TC-03| Reset Game | Verify complete state reset |	All scores and progress reset to 0 |Complete reset achieved	| Passed |	R6 |
 | TC-04 | Word Scramble | Ensure scrambled word is not the original correct word | Different arrangement of letters | Words properly scrambled | Passed	| R3 |
