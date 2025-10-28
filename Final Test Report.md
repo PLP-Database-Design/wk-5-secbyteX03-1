@@ -183,13 +183,13 @@ o	Implement code review process for accessibility compliance
 
 ## Attachments
 
-| Image | Description |
-|-------|-------------|
-| ![Leaderboard](images/word-puzzle01.png) | **Leaderboard Scores Review** - Shows the leaderboard displaying top scores |
-| ![Hint System](images/word-puzzle02.png) | **Hint System** - Hint feature should be disabled once used |
-| ![Code Quality](images/word-puzzle03.png) | **Code Quality (Aria-role)** - SonarQube analysis showing code quality and accessibility issues |
-| ![Semantic HTML](images/word-puzzle04.png) | **Semantic HTML Review** - Inconsistent use of semantic HTML elements |
-| ![Input Validation](images/word-puzzle05.png) | **Input Validation** - Input field should only accept alphabetic characters |
+| Thumbnail | Description |
+|-----------|-------------|
+| [![Leaderboard](images/word-puzzle01.png)](images/word-puzzle01.png) | **Leaderboard Scores Review**<br>Shows the leaderboard displaying top scores<br>_Click image to enlarge_ |
+| [![Hint System](images/word-puzzle02.png)](images/word-puzzle02.png) | **Hint System**<br>Hint feature should be disabled once used<br>_Click image to enlarge_ |
+| [![Code Quality](images/word-puzzle03.png)](images/word-puzzle03.png) | **Code Quality (Aria-role)**<br>SonarQube analysis showing code quality and accessibility issues<br>_Click image to enlarge_ |
+| [![Semantic HTML](images/word-puzzle04.png)](images/word-puzzle04.png) | **Semantic HTML Review**<br>Inconsistent use of semantic HTML elements<br>_Click image to enlarge_ |
+| [![Input Validation](images/word-puzzle05.png)](images/word-puzzle05.png) | **Input Validation**<br>Input field should only accept alphabetic characters<br>_Click image to enlarge_ |
 
 - 
 
