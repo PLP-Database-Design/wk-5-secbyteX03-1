@@ -31,9 +31,10 @@
 
 | Feature | Description | Risk Category |
 |---------|-------------|---------------|
-| Reset Game | Clears score and progress instantly | |
-| Leaderboard | Stores top 3 scores in localStorage | |
-| Bonus Round | Every 3 puzzles → doubles score | |
+| Reset Game | Clears score and progress instantly | Medium - state management|
+| Leaderboard | Stores top 3 scores in localStorage | High -data persistence|
+| Bonus Round | Every 3 puzzles → doubles score |High - business logic |
+| Hint | Provides clues at point cost |Medium - scoring logic |
 
 ## Test Plan
 
