@@ -35,6 +35,10 @@
 | Leaderboard | Stores top 3 scores in localStorage | High -data persistence|
 | Bonus Round | Every 3 puzzles → doubles score |High - business logic |
 | Hint | Provides clues at point cost |Medium - scoring logic |
+| Word Scrambling | Randomizes word order |Medium - game logic |
+| Input Validation | Prevents invalid input |Medium - input validation |
+| UI Responsiveness | Handles different screen sizes |Medium - responsiveness |
+| Code Maintainability | Maintainable code structure |Medium - maintainability |
 
 ## Test Plan
 
